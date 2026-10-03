@@ -2,6 +2,14 @@
 
 Server-side helpers controlled by a golden Ruler's Wand. For Minecraft servers running Paper/Purpur; players do not install a client mod.
 
+## Author and original inspiration
+
+KingdomMinions is my first public project. I am **Marek Poskrobko**, and I rebuilt and expanded the classic Minions gameplay as a modern server-side plugin for my kingdom-themed Minecraft server.
+
+Credit for the original concept goes to **AtomicStryker**, creator of [Minecraft Minions](https://www.curseforge.com/minecraft/mc-mods/minecraft-minions). Thanks also to **brass_mccrafty / BrassAmber-Mods** for [Minions Remastered](https://www.curseforge.com/minecraft/mc-mods/minions-remastered), which was the starting inspiration for this project.
+
+This project is my independent reimplementation and adaptation of that gameplay, rather than an official update to either mod. It does not bundle their code or assets. The original authors retain credit for their own work.
+
 ## Features
 
 - Up to four named helpers per ruler by default.
