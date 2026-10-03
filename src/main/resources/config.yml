@@ -1,0 +1,27 @@
+config-version: 3
+max-workers: 4
+selection:
+  reach: 12
+  # 0 oznacza brak sztucznego limitu zaznaczenia.
+  max-axis: 0
+  particle-spacing: 0.35
+work:
+  max-queued-blocks: 32768
+  default-depth: 8
+  max-depth: 256
+  vein-limit: 128
+  protect-containers: true
+  stop-at-liquids: true
+  seconds-per-stone-block: 0.7
+  minimum-ticks: 8
+  maximum-ticks: 120
+  placement-ticks: 7
+  inventory-slots: 27
+  continue-offline: true
+workers:
+  teleport-distance: 14
+  follow-distance: 3
+  stuck-blink-seconds: 6
+  save-interval-seconds: 30
+logging:
+  audit-events: true

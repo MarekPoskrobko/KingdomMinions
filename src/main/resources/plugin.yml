@@ -1,0 +1,30 @@
+name: KingdomMinions
+version: 1.0.27
+main: pl.marek.kingdomminions.KingdomMinionsPlugin
+description: Serwerowi pomocnicy i różdżki władców bez moda po stronie gracza.
+author: Marek
+api-version: '26.2'
+commands:
+  minions:
+    description: Zarządzanie różdżkami i pomocnikami.
+    usage: /minions [grant|replace|revoke|menu|status|repair|cancel|deliver|depth|size]
+permissions:
+  kingdomminions.use:
+    description: Pozwala używać nadanej różdżki.
+    default: true
+  kingdomminions.admin:
+    description: Pozwala nadawać, wymieniać i odbierać różdżki.
+    default: op
+
+
+
+
+
+
+
+
+
+
+
+
+

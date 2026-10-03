@@ -1,0 +1,12 @@
+.gradle/
+build/
+.idea/
+*.iml
+.vscode/
+*.log
+.env
+.env.*
+server.properties
+world*/
+plugins/
+logs/

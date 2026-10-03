@@ -1,0 +1,42 @@
+KINGDOMMINIONS 1.0.27 — ADMINISTRATOR
+
+Władca musi być online i mieć wolne miejsce w ekwipunku.
+/minions grant NickGracza — nadaje jedyną aktywną różdżkę.
+/minions replace NickGracza — wydaje nową różdżkę i unieważnia poprzednią.
+/minions revoke NickGracza — odbiera nadanie, odwołuje pomocników i zadanie.
+Przykład: /minions grant Marcus_Arch
+W konsoli serwera użyj tych samych komend bez początkowego ukośnika.
+Każdemu władcy nadaj różdżkę osobno.
+
+Uprawnienia:
+kingdomminions.admin — nadawanie, wymiana i odbieranie; domyślnie OP.
+kingdomminions.use — używanie nadanej różdżki; domyślnie dostępne graczom.
+Gracze nie potrzebują OP ani uprawnień administratora.
+
+Komendy własnej ekipy, używane w grze:
+/minions menu — menu; aktywna różdżka musi być w ręce.
+/minions status — stan pomocników i zadania.
+/minions follow — podążanie; aktywna różdżka w ręce.
+/minions stay — zatrzymanie wszystkich; aktywna różdżka w ręce.
+/minions zostan i /minions zostancie — aliasy stay.
+/minions deliver — jednorazowa dostawa do właściciela; nie zmienia stałego celu.
+/minions cancel — anulowanie zadania.
+/minions depth 128 — głębokość dla kolejnych zadań; minimum 1.
+/minions size 3 — rozmiar trybu punktowego; zakres 1–9.
+/minions repair — naprawa zagubionych wpisów własnych pomocników; aktywna różdżka w ręce. Nie używaj rutynowo: usuwa zagubione wpisy, umożliwiając ponowne przywołanie.
+Przywoływanie pomocników, wybór zadania i zmiana imion są w menu.
+Prawy klik różdżką na skrzynce zapisuje ją jako domyślny cel dostaw.
+
+Języki:
+Menu i komunikaty dopasowują się do języka Minecrafta każdego gracza.
+Polski Minecraft używa polskiego; pozostałe nieobsługiwane języki używają angielskiego.
+Zmiana języka odświeża otwarte menu i opisy aktywnych różdżek.
+Własne imiona pomocników nie są tłumaczone.
+Pliki UTF-8 są w plugins/KingdomMinions/lang/. Po zmianie plików zrestartuj serwer.
+Nowy język można dodać w tym folderze; zachowaj klucze i parametry {0}, {1} itd.
+
+Instalacja:
+Zrób kopię świata i plugins/KingdomMinions. Wyłącz serwer. Zastąp poprzedni JAR plikiem KingdomMinions-Paper-1.0.27.jar w plugins i uruchom serwer.
+Zachowaj data.yml, konfigurację i pliki języków przy aktualizacjach.
+Nie używaj /reload. Nie wrzucaj JAR do mods w CurseForge.
+Najpierw sprawdź zgodność z dodatkami na kopii serwera.
