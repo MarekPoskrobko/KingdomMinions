@@ -14,8 +14,3 @@ For server-only translations, place the file in `plugins/KingdomMinions/lang/` a
 
 Existing active wands are relabeled when their owner joins or changes Minecraft's language. Open wand menus refresh on a locale change. Custom helper names are preserved. Default helper names are neutral (`Minion 1`, etc.). Existing custom names are not rewritten.
 
-## Polski
-
-Skopiuj angielski plik, przetłumacz wartości i zachowaj klucze oraz parametry `{0}`, `{1}`. Pliki używają UTF-8. Na serwerze można dodać własny język do `plugins/KingdomMinions/lang/`; po restarcie będzie wybierany według ustawień Minecrafta gracza.
-
-Do publicznej wersji dodaj kod języka do `lang/languages.list`; nie trzeba zmieniać kodu Java. Późniejsze zgłoszenie „Add your language” może zawierać nazwę języka, kod locale oraz gotowy plik tłumaczenia. Nie zmieniaj komend ani własnych imion graczy i pomocników.

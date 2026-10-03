@@ -26,6 +26,8 @@ This is a standalone server-side implementation inspired by Minions gameplay. It
 
 Updates preserve `plugins/KingdomMinions/`. Do not delete `data.yml` or use `/reload` to replace the JAR.
 
+See the [administrator guide](docs/ADMIN.md) for granting and replacing wands.
+
 ## Commands
 
 | Command | Purpose |
